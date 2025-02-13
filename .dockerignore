@@ -1,0 +1,40 @@
+# Ignore node_modules and npm debug logs
+node_modules
+npm-debug.log
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore environment variables
+.env
+*.env
+
+# Ignore git files
+.git
+.gitignore
+.github/
+
+# ignore build artifacts
+build
+dist
+
+# ignore logs
+logs
+
+# ignore editor files
+.vscode
+.idea
+
+# ignore OS files
+.DS_Store
+Thumbs.db
+
+# ignore test files
+__tests__
+*.spec.js
+*.test.js
+
+# ignore documentation
+README.md
+docs/

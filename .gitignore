@@ -1,0 +1,22 @@
+# ignore node modules
+node_modules
+npm-debug.log
+
+# ignore build artifacts
+build
+dist
+
+# ignore .env file
+.env
+*.env
+
+# ignore logs
+logs
+
+# ignore editor files
+.vscode
+.idea
+
+# ignore OS files
+.DS_Store
+Thumbs.db
