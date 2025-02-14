@@ -2,11 +2,6 @@
 
 A minimal and secure Node.js application built with distroless docker image using multi-stage build.
 
-### Why bother?
-
-- A standard Node.js Docker container built from typical base images can weigh over **1GB**.
-- By using Distroless images and multi-stage builds, the container reduces to just over **200MB** — making it lightweight, secure, and efficient.
-
 ### Key features:
 
 - 🐳 Dockerized Node.js App: Containerized for portability and consistency.
@@ -14,6 +9,11 @@ A minimal and secure Node.js application built with distroless docker image usin
 - 🔧 Multi-Stage Builds: Reduces final image size by separating build and runtime environment.
 - 📦 Minimal Dependencies: Only includes what’s necessary to run the app.
 - 🚀 Production-Ready: Optimized for deployment in production environments.
+
+### Why bother with distroless?
+
+- A standard Node.js Docker container built from typical base images can **exceed 1GB**.
+- By using distroless images and multi-stage builds, the container size can be reduced **by 5x or more**, making it lightweight, secure, and efficient.
 
 ### Getting started:
 
